@@ -68,7 +68,7 @@ The web plot provides information about which is the most popular model in each 
 
 [https://rstudio.github.io/leaflet/shiny.html](https://rstudio.github.io/leaflet/shiny.html)
 [https://shiny.rstudio.com/gallery/uber-rider.html](https://shiny.rstudio.com/gallery/uber-rider.html)
-[https://github.com/eparker12/nCoV_tracker/blob/master/app.R ]https://github.com/eparker12/nCoV_tracker/blob/master/app.R 
+[https://github.com/eparker12/nCoV_tracker/blob/master/app.R ]https://github.com/eparker12/nCoV_tracker/blob/master/app.R)
 [https://github.com/rstudio/shiny-examples/blob/main/063-superzip-example/ui.](https://github.com/rstudio/shiny-examples/blob/main/063-superzip-example/ui.)
 [https://r-graph-gallery.com/spider-or-radar-chart.html](https://r-graph-gallery.com/spider-or-radar-chart.html)
 [https://r-graph-gallery.com/circle-packing.html](https://r-graph-gallery.com/circle-packing.html)
