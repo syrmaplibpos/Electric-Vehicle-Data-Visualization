@@ -1,13 +1,84 @@
 # Electric-Vehicle-Data-Visualization
 
-## 1. Background
+## Background
 
-The EV industry is being supported by governments throughout the world through subsidies and regulations, and consumers are demanding low-emission commuting over the fossil fuel-powered vehicles that are destroying the environment. Tesla has been one of the most successful EV companies/brands in the world, but others have also introduced EVs that are in demand from customers in many areas, including Mercedes Benz, BMW, Ford, Audi, Hyundai, Honda, and Nissan. There is no doubt that EVs are the future of transportation and driving.
+### What is the problem?
+Electric charging speed is slow
+Lack power when the weather is cold.
+Long distance road trips
+ 
+### Why is it worth further research?
+EV is the general trend of the vehicle market
+The government encourages to replace traditional vehicles with electric vehicles
 
-## 2. Data Sources
+How could you solve this problem?
+Build more charging station, especially in suburbs
+Provide EV market information to consumers
 
-Datasets are collected from data.wa.gov. Specifically, Electric Vehicle Title and Registration Activity dataset is used to explore the features that would impact the electric vehicles market in the state of Washington. In addition, data of the EV charging station in the State of Washington is downloaded from energy.gov. This data set contains the location, coordinate and category etc. of each charging station in Washington.
+## Data Collection
 
-## 3. Goal
+Electric vehicles data are collected from [DATA.GOV](https://catalog.data.gov/dataset/electric-vehicle-population-data)
 
-The project aims to better understand the electric vehicles market for both consumers and manufacturers by offering comprehensive insights through visualizations and analysis. Analyze current charging network, provide advise on future improvements.
+Electric vehicles that are currently registered through Washington State Department of Licensing (DOL) 
+
+Charging station data are collected from [U.S. Department of Energy](https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC)
+
+## Data Structure
+
+Charging station dataset:
+65 columns
+1583 rows
+
+Electric vehicles population dataset 
+17 columns
+109,027 rows
+
+
+## R Shiny Highlights 1 - Map
+
+Bubble position indicates geographical location of electric vehicles
+
+Bubble size and color show differences in vehicle volumes 
+
+Pin position indicates geographical location of charging stations
+
+## R Shiny Highlights 2 - Graphics
+
+1. Bubble Plot
+
+Circular packing allowing to visualize the ranking of a group of data.
+Aggregating all vehicles of the same make during a given period assigned by the users.
+Helping to clearly identify the Electric Vehicle market segments.
+
+2. Web Plot
+
+Radar chart displays the values in the form of multi-dimensional chart.
+Each dimension represents the proportion of this model of this make.
+Users can assign the make and adjust the time period in the side bar
+
+## Results
+
+The map page allows users to understand the EV and charging station distribution in the State of Washington 
+
+The bubble plot provides information about which car brand sells the most EV in the market
+
+The web plot provides information about which is the most popular model in each car brand.
+
+## References
+
+[https://rstudio.github.io/leaflet/shiny.html](https://rstudio.github.io/leaflet/shiny.html)
+[https://shiny.rstudio.com/gallery/uber-rider.html](https://shiny.rstudio.com/gallery/uber-rider.html)
+[https://github.com/eparker12/nCoV_tracker/blob/master/app.R ]https://github.com/eparker12/nCoV_tracker/blob/master/app.R 
+[https://github.com/rstudio/shiny-examples/blob/main/063-superzip-example/ui.](https://github.com/rstudio/shiny-examples/blob/main/063-superzip-example/ui.)
+[https://r-graph-gallery.com/spider-or-radar-chart.html](https://r-graph-gallery.com/spider-or-radar-chart.html)
+[https://r-graph-gallery.com/circle-packing.html](https://r-graph-gallery.com/circle-packing.html)
+[https://shiny.rstudio.com/gallery/shiny-theme-selector.html](https://shiny.rstudio.com/gallery/shiny-theme-selector.html)
+[https://www.kaggle.com/code/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda](https://www.kaggle.com/code/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda)
+
+
+
+
+
+
+
+
